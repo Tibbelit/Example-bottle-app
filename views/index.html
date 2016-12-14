@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Filmtips!</title>
+		<meta charset="utf-8">
+		<link href="/static/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Tipsa om filmer!</h1>
+		<div id="tips">
+			<h2>Inkomna filmtips</h2>
+			<ul>
+				% for movie in movies:
+					<li>{{ movie }}</li>
+				% end
+			</ul>
+			
+			<h2>Tipsa om en film</h2>
+			<form action="/add-movie" method="POST">
+				<label for="title">Titel:</label>
+				<input type="text" name="title" id="title">
+				<input type="submit" value="Spara filmtips!">
+			</form>
+		</div>
+	</body>
+</html>
