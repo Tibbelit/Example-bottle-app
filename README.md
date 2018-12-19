@@ -1,9 +1,6 @@
 # Exempel på en bottle-applikation
 Detta är en enkel bottle-applikation där man spara filmtips i en text-fil. Dessa filmtips visas sedan på en webbsida.
 
-## Live-version
-Ni kan besöka exemplet [här](http://tibbelit2.pythonanywhere.com/) (och lämna filmtips om ni vill! =) )
-
 ## Att komma igång
 Ladda ner exemplet och navigera till mappen `Example-bottle-app` (eller var ni döper den till). I terminalen/konsolen kör sedan något av nedanståend:
 
